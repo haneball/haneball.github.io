@@ -6,7 +6,7 @@ title: 主页
 heroImage: /avatar.png
 heroText: haneball Blog
 heroFullScreen: true
-bgImage: /@fs/G:/CodeSpace/case4/my-blog/src/.vuepress/public/assets/images/bg.jpg
+bgImage: /assets/images/bg.jpg
 tagline: 一个小博客
 
 # projects:
