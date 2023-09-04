@@ -27,6 +27,8 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
+  sidebarSorter: "order",
+
   footer: "一个小博客 haneball Blog",
 
   displayFooter: true,
