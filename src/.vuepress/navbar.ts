@@ -28,6 +28,14 @@ export default navbar([
           { text: "常用 CSS 动画", icon: "pen-to-square", link: "20001" }
         ]
       },
+      {
+        text: "Vue",
+        icon: "pen-to-square",
+        prefix: "vue/",
+        children: [
+          { text: "BackTop 返回顶部", icon: "pen-to-square", link: "30001" }
+        ]
+      }
     ],
   },
 ]);
