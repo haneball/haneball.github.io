@@ -29,7 +29,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  sidebarSorter: "order",
+  sidebarSorter: ["readme", "order", "title", "filename"],
 
   footer: "一个小博客 haneball Blog",
 
