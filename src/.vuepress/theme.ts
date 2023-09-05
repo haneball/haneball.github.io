@@ -21,6 +21,8 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  docsBranch: "master",
+
   // navbar
   navbar,
 
