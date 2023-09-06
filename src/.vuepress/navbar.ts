@@ -8,7 +8,7 @@ export default navbar([
     prefix: "/posts/",
     children: [
       {
-        text: "JavaScrpt",
+        text: "JavaScript",
         link: "js/10001"
       },
       {
