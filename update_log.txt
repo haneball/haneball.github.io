@@ -1,2 +1,0 @@
-2023-09-04
-- 添加搜索 vuepress-plugin-search-pro
