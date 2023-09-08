@@ -13,7 +13,7 @@ export default hopeTheme({
     url: "https://haneball.github.io",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "iconfont",
 
   logo: "/avatar.png",
 
