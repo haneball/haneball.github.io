@@ -18,3 +18,8 @@
 
 ## 2023-09-08
 - 使用 iconfont 图标库为 navbar 和 sidebar 添加图标
+
+## 2023-09-12
+- 为已有笔记添加 tag
+- 简化笔记 BackTop 返回顶部
+- 新增笔记 WindowAffix 窗口图钉
