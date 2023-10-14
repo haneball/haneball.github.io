@@ -25,4 +25,5 @@
 - 新增笔记 WindowAffix 窗口图钉
 
 ## 2023-10-14
-- 新增 TypeScript 的代码笔记
+- 新增了 TypeScript 的代码笔记
+- 修改了部分笔记的标签名称
