@@ -23,3 +23,6 @@
 - 为已有笔记添加 tag
 - 简化笔记 BackTop 返回顶部
 - 新增笔记 WindowAffix 窗口图钉
+
+## 2023-10-14
+- 新增 TypeScript 的代码笔记
