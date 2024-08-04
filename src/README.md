@@ -6,7 +6,7 @@ title: 主页
 heroImage: /avatar.png
 heroText: haneball Blog
 heroFullScreen: true
-bgImage: /assets/images/bg.jpg
+bgImage: /assets/images/bg.webp
 tagline: 一个小博客
 
 # projects:
