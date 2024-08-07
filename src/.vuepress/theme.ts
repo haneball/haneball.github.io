@@ -31,7 +31,7 @@ export default hopeTheme({
 
   sidebarSorter: ["readme", "order", "title", "filename"],
 
-  footer: "一个小博客 haneball Blog",
+  footer: "haneball Blog",
 
   displayFooter: true,
 
