@@ -1,0 +1,52 @@
+import{_ as s}from"./plugin-vue_export-helper-c27b6911.js";import{o as a,c as t,d as e,e as n}from"./app-f44b6ad9.js";const p={},c=n(`<h2 id="fade-淡入淡出" tabindex="-1"><a class="header-anchor" href="#fade-淡入淡出" aria-hidden="true">#</a> fade 淡入淡出</h2><div class="language-html line-numbers-mode" data-ext="html"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>fade-in<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Fade In<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>`,2),o=n(`<div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token selector">.fade-in</span> <span class="token punctuation">{</span>
+    <span class="token property">animation</span><span class="token punctuation">:</span> fadeIn 0.3s ease forwards<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token atrule"><span class="token rule">@keyframes</span> fadeIn</span> <span class="token punctuation">{</span>
+    <span class="token selector">0%</span> <span class="token punctuation">{</span> <span class="token property">opacity</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token selector">100%</span> <span class="token punctuation">{</span> <span class="token property">opacity</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="zoom-缩放" tabindex="-1"><a class="header-anchor" href="#zoom-缩放" aria-hidden="true">#</a> zoom 缩放</h2><h3 id="水平中心缩放" tabindex="-1"><a class="header-anchor" href="#水平中心缩放" aria-hidden="true">#</a> 水平中心缩放</h3><div class="language-html line-numbers-mode" data-ext="html"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>zoom-in-center<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Zoom In<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="language-scss line-numbers-mode" data-ext="scss"><pre class="language-scss"><code><span class="token selector">.zoom-in-center </span><span class="token punctuation">{</span>
+	<span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+	<span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+	<span class="token property">border</span><span class="token punctuation">:</span> 1px solid #000<span class="token punctuation">;</span>
+    <span class="token selector"><span class="token parent important">&amp;</span>:active </span><span class="token punctuation">{</span>
+        <span class="token property">transition</span><span class="token punctuation">:</span> all 0.3s ease 0s<span class="token punctuation">;</span>
+        <span class="token property">animation</span><span class="token punctuation">:</span> zoomInCenter 0.3s ease forwards<span class="token punctuation">;</span>	
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token atrule"><span class="token rule">@keyframes</span> zoomInCenter</span> <span class="token punctuation">{</span>
+    <span class="token selector">0% </span><span class="token punctuation">{</span>
+        <span class="token property">transform-origin</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+        <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scaleX</span><span class="token punctuation">(</span>1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token selector">100% </span><span class="token punctuation">{</span>
+        <span class="token property">transform-origin</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+        <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scaleX</span><span class="token punctuation">(</span>0<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="垂直顶部缩放" tabindex="-1"><a class="header-anchor" href="#垂直顶部缩放" aria-hidden="true">#</a> 垂直顶部缩放</h3><div class="language-html line-numbers-mode" data-ext="html"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>zoom-in-top<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Zoom In<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="language-scss line-numbers-mode" data-ext="scss"><pre class="language-scss"><code><span class="token selector">.zoom-in-top </span><span class="token punctuation">{</span>
+	<span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+	<span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+	<span class="token property">border</span><span class="token punctuation">:</span> 1px solid #000<span class="token punctuation">;</span>
+    <span class="token selector"><span class="token parent important">&amp;</span>:active </span><span class="token punctuation">{</span>
+        <span class="token property">transition</span><span class="token punctuation">:</span> all 0.3s ease 0s<span class="token punctuation">;</span>
+        <span class="token property">animation</span><span class="token punctuation">:</span> zoomInTop 0.3s ease forwards<span class="token punctuation">;</span>	
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token atrule"><span class="token rule">@keyframes</span> zoomInTop</span> <span class="token punctuation">{</span>
+    <span class="token selector">0% </span><span class="token punctuation">{</span>
+        <span class="token property">transform-origin</span><span class="token punctuation">:</span> center top<span class="token punctuation">;</span>
+        <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scaleY</span><span class="token punctuation">(</span>1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token selector">100% </span><span class="token punctuation">{</span>
+        <span class="token property">transform-origin</span><span class="token punctuation">:</span> center top<span class="token punctuation">;</span>
+        <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scaleY</span><span class="token punctuation">(</span>0<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,8);function i(l,u){return a(),t("div",null,[c,e(" more "),o])}const k=s(p,[["render",i],["__file","20001.html.vue"]]);export{k as default};
